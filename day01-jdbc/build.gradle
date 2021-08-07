@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'cn.gao'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.19'
+}
+
+test {
+    useJUnitPlatform()
+}
